@@ -6,6 +6,8 @@ COPY yarn.lock .
 
 RUN yarn install
 
+# test
+
 COPY . .
 
 EXPOSE 3000
